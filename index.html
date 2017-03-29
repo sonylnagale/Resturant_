@@ -37,13 +37,13 @@ img {
 		<p>"The Coffee Shop"</p>
 
 	</div>
-	<div class="jumbotron">
-<!-- 		<img class="resturant" src="http://circuits-assets.generalassemb.ly/prod/asset/5475/toms-restaurant.jpg" alt="Tom's Resturant">
- -->	</div>
+	<div class="img-responsive">
+			<img src="http://circuits-assets.generalassemb.ly/prod/asset/5475/toms-restaurant.jpg" class="img-fluid" alt="Responsive image">
+	</div>
 
  </div> <!-- end of container   	-->
-<div container-fluid>
- 		<div class="header">
+<div class="container-fluid">
+ 		<div class="header col-sm-12">
  		<div class="col-md-6">
  			<h1>Make a Reservation</h1>
 
@@ -89,19 +89,47 @@ img {
   
  </div>
  </div> <!-- end of container   	-->
-<div class="clear"></div>
-<div container-fluid col-sm-12>
-	<h1>hey hey hey</h1>
+<div class="container-fluid col-sm-12">
+	<h1>Come Dine with Us</h1>
+	<div id="map" class="jumbotron"></div>
 
  </div> <!-- end of container   	-->
 
 
+<div class="container-fluid">
+	
+	<div class="col-md-6">
+	<div class="header">
+		<h1>Customer Reviews</h1>
+	</div>
+		<div class="">
+		<div class="well">
+			<h3>“Big lettuce, big carrots, tomatoes like volleyballs.”</h3>
+			<p>— Jerry Seinfeld, on The BIG Salad</p>
+		</div>
+		<div class="well">
 
+			<img src="http://circuits-assets.generalassemb.ly/prod/asset/5474/jerry.jpg" style="width: 100%" />
+		</div>
+			
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="header">
+		<h1>Your Review</h1>
+	</div>
+		<div class="jumbotron">
+			
+		</div>
+	</div>
+</div>
 
-
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7TGeLbitt_KJoFaGvoOZZDoZ4QcHklNg&callback=initMap"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/core.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 <script src="style.css"></script>
+<script type="text/javascript" src="mainJS.js"></script>
 
 </body>
 </html>
