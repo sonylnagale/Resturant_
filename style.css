@@ -1,4 +1,4 @@
-jumbotron {
+.jumbotron {
 
     background-image: url("http://circuits-assets.generalassemb.ly/prod/asset/5475/toms-restaurant.jpg")
 } 
@@ -7,11 +7,17 @@ jumbotron {
 	clear: both;
 }
 
-.cafe{
+.cafe {
 	background:url('http://circuits-assets.generalassemb.ly/prod/asset/5475/toms-restaurant.jpg')no-repeat;
     background-size:100%;
 	height: 140px;
 	display:block;
 	padding:0 !important;
 	margin:0;
+}
+
+#map {
+	width: 90%;
+	height: 500px;
+	margin: 0 auto;
 }
