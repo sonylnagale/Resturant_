@@ -1,0 +1,1 @@
+var mapGKey = "AIzaSyB7TGeLbitt_KJoFaGvoOZZDoZ4QcHklNg";
